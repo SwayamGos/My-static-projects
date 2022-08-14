@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(bg\ project1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 20%;
+  height: 28em;
+  text-align: center;
+  padding: 20px;
+
+  border-radius: 12px;
+  background-color: rgba(252, 252, 252, 0.249);
+  box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.651);
+  font-family: DynaPuff, Arial, sans-serif;
+}
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
+.box {
+  width: 69%;
+}
+.box input {
+  width: 110%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10%;
+  margin-left: 12%;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.btn {
+  margin: 5% 0;
+  width: 45%;
+  height: 3.5rem;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.517);
+  color: rgb(6, 6, 6);
+  font-weight: 1000;
+  font-size: large;
+  cursor: pointer;
+  font-family: Dynapuff, Arial, sans-serif;
+}
+.fa {
+  position: absolute;
+
+  left: 4.5%;
+  font-size: 100%;
+}
+.fa-envelope {
+  position: absolute;
+  top: 10em;
+}
+.fa-key {
+  position: absolute;
+  top: 15.5em;
+}
+.fat {
+  color: black;
+  display: inline;
+  position: inherit;
+  padding: 5%;
+}
+.fa-apple {
+  font-size: 130%;
+}
+.mainip::placeholder {
+  font-family: DynaPuff, Arial, sans-serif;
+}
