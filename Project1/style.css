@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(bg\ project1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 20%;
+  height: 28em;
+  text-align: center;
+  padding: 20px;
+
+  border-radius: 12px;
+  background-color: rgba(252, 252, 252, 0.318);
+  box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.651);
+  font-family: Aboreto, Arial, sans-serif;
+}
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.box {
+  width: 69%;
+}
+.box input {
+  width: 110%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10%;
+  margin-left: 12%;
+
+  font-size: 20px;
+  background: none;
+  border-bottom: 0.1em solid black;
+}
+.btn {
+  margin: 5% 0;
+  width: 45%;
+  height: 3.5rem;
+  border-radius: 7px;
+
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.402);
+  
+  color: rgb(6, 6, 6);
+  font-weight: 1000;
+  font-size: large;
+  cursor: pointer;
+  font-family: Aboreto, Arial, sans-serif;
+}
+.btn:hover {
+  border: 2px solid black;
+  background: none;
+}
+.fa {
+  position: absolute;
+
+  left: 5.5%;
+  font-size: 100%;
+}
+.fa-envelope {
+  position: absolute;
+  top: 10.6em;
+}
+.fa-key {
+  position: absolute;
+  top: 15.8em;
+}
+.fat {
+  color: black;
+  display: inline;
+  position: inherit;
+  padding: 5%;
+}
+.fa-apple {
+  font-size: 130%;
+}
+.mainip::placeholder {
+  font-family: Aboreto, Arial, sans-serif;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
